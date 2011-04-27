@@ -24,7 +24,7 @@ public class SmsReceiver extends BroadcastReceiver {
 
 	static final String logTag = "SmsReceiver";
 	static final String ACTION = "android.provider.Telephony.SMS_RECEIVED";
-	static final String number = "01012345678";
+	static final String number = "01012345678"; // 반응할 번호
 	
 	private HttpClient httpclient;
 
